@@ -61,16 +61,16 @@
 // #define CURSOR_SHAPE  /* Options: BLOCK, IBEAM, UNDERLINE                  */
 // #define DEFAULT_COMMAND        g_getenv("SHELL")
 // #define DEFAULT_DIRECTORY      g_get_current_dir()
-// #define DEFAULT_TERMINAL_SIZE  80x24
-// #define EXPORT_WINDOWID        TRUE
+ #define DEFAULT_TERMINAL_SIZE    10x1
+ #define EXPORT_WINDOWID        TRUE
 // #define FONT                   "Monospace 10"
 // #define FONT_ANTI_ALIAS        TRUE
 // #define FONT_ENABLE_BOLD_TEXT  TRUE
 // #define MOUSE_CTRL_SATURATION  TRUE  /* Scroll left or right to adjust it  */
-// #define MOUSE_CURSOR_AUTOHIDE  TRUE
+ #define MOUSE_CURSOR_AUTOHIDE  TRUE
 // #define PROGRAM_ALWAYS_ON_TOP  TRUE
 // #define PROGRAM_ICON           ".config/evilvte/icon.png"
-// #define PROGRAM_WM_CLASS       TRUE
+ #define PROGRAM_WM_CLASS       TRUE
 // #define RECORD_LASTLOG         TRUE
 // #define RECORD_UTMP            TRUE
 // #define RECORD_WTMP            TRUE
@@ -78,10 +78,10 @@
 // #define SCROLL_ON_KEYSTROKE    TRUE
 // #define SCROLL_ON_OUTPUT       TRUE
 // #define    SCROLLBAR              RIGHT /* Options: LEFT, RIGHT, OFF_L, OFF_R */
-// #define SHOW_WINDOW_BORDER     TRUE
-// #define SHOW_WINDOW_DECORATED  TRUE
+ #define SHOW_WINDOW_BORDER     TRUE
+ #define SHOW_WINDOW_DECORATED  TRUE
 //#define    SHOW_WINDOW_ICON       TRUE
-//#define    STATUS_BAR             TRUE
+// #define    STATUS_BAR             TRUE
 // #define WINDOW_TITLE_DYNAMIC   TRUE  /* for xterm escape sequences         */
 #define    WORD_CHARS             "-A-Za-z0-9_$.+!*(),;:@&=?/~#%"
 
