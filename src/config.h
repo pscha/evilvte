@@ -1,10 +1,10 @@
 /* Use // to disable options                                                  */
 
-#define    BACKGROUND_IMAGE       ".config/evilvte/background.png"
-// #define BACKGROUND_SATURATION  0.4
+// #define    BACKGROUND_IMAGE       ".config/evilvte/background.png"
+ #define BACKGROUND_SATURATION  0.2
 // #define BACKGROUND_SCROLLABLE  TRUE
 // #define BACKGROUND_TINT_COLOR  "black"
-// #define BACKGROUND_TRANSPARENT TRUE  /* Pseudo transparent background      */
+ #define BACKGROUND_TRANSPARENT TRUE  /* Pseudo transparent background      */
 // #define BACKGROUND_OPACITY     TRUE  /* True transparent background        */
 // #define BACKSPACE_KEY /* Options: AUTO, BACKSPACE, DELETE, ERASE_TTY,      */
                          /*          DELETE_SEQUENCE                          */
@@ -77,15 +77,15 @@
 // #define SCROLL_LINES           1000  /* Negative value means unlimited     */
 // #define SCROLL_ON_KEYSTROKE    TRUE
 // #define SCROLL_ON_OUTPUT       TRUE
-#define    SCROLLBAR              RIGHT /* Options: LEFT, RIGHT, OFF_L, OFF_R */
+// #define    SCROLLBAR              RIGHT /* Options: LEFT, RIGHT, OFF_L, OFF_R */
 // #define SHOW_WINDOW_BORDER     TRUE
 // #define SHOW_WINDOW_DECORATED  TRUE
-#define    SHOW_WINDOW_ICON       TRUE
-#define    STATUS_BAR             TRUE
+//#define    SHOW_WINDOW_ICON       TRUE
+//#define    STATUS_BAR             TRUE
 // #define WINDOW_TITLE_DYNAMIC   TRUE  /* for xterm escape sequences         */
 #define    WORD_CHARS             "-A-Za-z0-9_$.+!*(),;:@&=?/~#%"
 
-#define    MENU                   TRUE
+//#define    MENU                   TRUE
 // #define MENU_ENCODING_LIST     "BIG-5", "Default Encoding", "GBK", "EUC-JP"
 // #define MENU_MATCH_STRING_EXEC "firefox"
 // #define      MATCH_STRING_L    "firefox" /* left click to open without menu*/
@@ -113,7 +113,7 @@
             *          "Auto-click" (when there is only one effective menu item)
             */
 
-#define    TAB                    TRUE
+//#define    TAB                    TRUE
 // #define TAB_BORDER             0
 // #define TAB_CLOSE_BUTTON       TRUE
 // #define TAB_EXPANDED_WIDTH     TRUE
@@ -145,7 +145,7 @@
  *
  * See /usr/include/gtk-?.0/gdk/gdkkeysyms.h for GDK_* definitions.           */
 
-#define    HOTKEY                       TRUE
+//#define    HOTKEY                       TRUE
 // #define HOTKEY_COPY                  CTRL_SHIFT(GDK_C) || CTRL_SHIFT(GDK_c)
 // #define HOTKEY_PASTE                 CTRL_SHIFT(GDK_V) || CTRL_SHIFT(GDK_v)
 // #define HOTKEY_SELECT_ALL            CTRL_SHIFT(GDK_S) || CTRL_SHIFT(GDK_s)
@@ -169,10 +169,10 @@
 // #define HOTKEY_SEARCH_PREVIOUS       CTRL_SHIFT(GDK_G) || CTRL_SHIFT(GDK_g)
 // #define HOTKEY_SEARCH_NEXT           CTRL(GDK_g) || CTRL(GDK_G)
 // #define        SEARCH_CASE_SENSITIVE TRUE
-#define    HOTKEY_TAB_ADD               CTRL_SHIFT(GDK_T) || CTRL_SHIFT(GDK_t)
-#define    HOTKEY_TAB_REMOVE            CTRL_SHIFT(GDK_W) || CTRL_SHIFT(GDK_w)
-#define    HOTKEY_TAB_PREVIOUS          CTRL(GDK_Page_Up)
-#define    HOTKEY_TAB_NEXT              CTRL(GDK_Page_Down)
+//#define    HOTKEY_TAB_ADD               CTRL_SHIFT(GDK_T) || CTRL_SHIFT(GDK_t)
+//#define    HOTKEY_TAB_REMOVE            CTRL_SHIFT(GDK_W) || CTRL_SHIFT(GDK_w)
+//#define    HOTKEY_TAB_PREVIOUS          CTRL(GDK_Page_Up)
+//#define    HOTKEY_TAB_NEXT              CTRL(GDK_Page_Down)
 // #define HOTKEY_TAB_FIRST             CTRL(GDK_Home)
 // #define HOTKEY_TAB_LAST              CTRL(GDK_End)
 // #define ALT_NUMBER_GO_TO_TAB_NUMBER  TRUE
