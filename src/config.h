@@ -1,7 +1,7 @@
 /* Use // to disable options                                                  */
 
 // #define    BACKGROUND_IMAGE       ".config/evilvte/background.png"
- #define BACKGROUND_SATURATION  0.2
+ #define BACKGROUND_SATURATION  0.25
 // #define BACKGROUND_SCROLLABLE  TRUE
 // #define BACKGROUND_TINT_COLOR  "black"
  #define BACKGROUND_TRANSPARENT TRUE  /* Pseudo transparent background      */
